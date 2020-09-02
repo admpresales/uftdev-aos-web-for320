@@ -7,6 +7,12 @@ It shows all of the major capabilities of UFT Dev. It runs against public AOS, b
 
 ## Usage
 
+### In order to run
+In order to run, you must create a "configuration". The easiest way to do this, is to open the .java source code; right click anyplace; select Run.
+
+Because the project uses an application model, the first run will fail, with an error that the application model cannot be found. But this first run builds the application model, so a second run will work.
+
+### Flow
 The flow is:
 * Login (you will have to provide credentials)
 * Shop (including changing the quantity)
