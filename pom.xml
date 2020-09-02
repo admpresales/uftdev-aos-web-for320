@@ -17,25 +17,25 @@
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>sdk</artifactId>
-            <version>15.1.0</version>
+            <version>${uftdev.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>report</artifactId>
-            <version>15.1.0</version>
+            <version>${uftdev.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>unittesting</artifactId>
-            <version>15.1.0</version>
+            <version>${uftdev.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>verifications</artifactId>
-            <version>15.1.0</version>
+            <version>${uftdev.version}</version>
         </dependency>
     </dependencies>
 
@@ -49,6 +49,7 @@
 
     <properties>
         <test.src.dir>src/test/java</test.src.dir>
+        <uftdev.version>RELEASE</uftdev.version>
     </properties>
 
     <build>
